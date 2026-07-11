@@ -39,7 +39,7 @@ nav {
   padding: 14px 34px;
   border-radius: 10px;
   font-weight: 600;
-  text-decoration:none;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -47,8 +47,6 @@ nav {
   background: #1d49d8;
   transition: 0.3s;
 }
-
-
 
 /* Hero Section CSS */
 
@@ -92,12 +90,16 @@ nav {
 }
 
 .hero-content p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size: 18px;
   font-family: "Inter", sans-serif;
   color: #ffffff;
   max-width: 700px;
   margin: 0 auto 60px;
   line-height: 1.2;
+  margin-bottom: 300px;
 }
 
 .hero-btn {
@@ -110,6 +112,13 @@ nav {
   font-size: 22px;
   font-weight: 600;
   transition: 0.3s;
+}
+
+.hero-content .common-register-btn {
+  font-size: 22px;
+  padding: 18px 55px;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 .hero-btn:hover {
@@ -178,4 +187,3 @@ div p {
   color: #292828;
   line-height: 1.5;
 }
-
