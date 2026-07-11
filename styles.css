@@ -323,14 +323,73 @@ div p {
 /* Subscription CSS */
 
 .subscription {
-  padding: 100px 80px;
-  background: #59a5d8;
-  margin-bottom: 30px;
+    margin-top: 100px;
+    padding: 80px;
+    background: linear-gradient(90deg, #2D5BFF, #0F2C7A);
 }
-
 .subscribe .container{
     max-width:1200px;
     margin:auto;
 }
 
+.subscription .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subscription h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    width: 800px;
+}
+
+.subscription-form {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.subscription-form input {
+    display :flex;
+    min-width: 280px;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(204, 198, 198, 0.12);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscription-form input::placeholder {
+    color:white;
+
+}
+
+.subscription-form button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 8px;
+    background: blue;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscription-form button:hover {
+    background: rgb(45, 45, 204);
+}
+
+/* Footer Section */
 
