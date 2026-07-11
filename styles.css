@@ -219,20 +219,21 @@ div p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .pricing-grid {
   display: grid;
+  margin-top: 60px;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
 .pricing-subtitle {
-  text-align: center;
-  color: #777;
+  text-align: center !important;
+  color: #524d4d;
   font-size: 18px;
   margin-bottom: 60px;
 }
@@ -271,7 +272,8 @@ div p {
 
 .price-text {
   color: #888;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .price-card hr {
@@ -318,10 +320,6 @@ div p {
   font-weight: 600;
 }
 
-.dark {
-  border-color: #101c2b;
-  color: #101c2b;
-}
 
 /* Subscription CSS Starts */
 
@@ -429,3 +427,4 @@ footer {
 .footer-links a:hover {
   color: rgb(40, 40, 230);
 }
+
