@@ -1,3 +1,6 @@
+
+/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Navigation CSS */
+/* Navigation CSS Starts */
 
 .logo img {
   height: 45px;
@@ -49,7 +52,7 @@ nav {
   transition: 0.3s;
 }
 
-/* Hero Section CSS */
+/* Hero Section CSS Starts */
 
 .hero {
   height: 800px;
@@ -126,7 +129,7 @@ nav {
   background: #2148d8;
 }
 
-/* Speaker Portion CSS */
+/* Speaker Portion CSS Starts */
 
 .speaker h2 {
   margin-top: 60px;
@@ -189,7 +192,7 @@ div p {
   line-height: 1.5;
 }
 
-/* Pricing Section CSS */
+/* Pricing Section CSS Starts */
 
 .pricing {
   margin-top: 100px;
@@ -268,7 +271,7 @@ div p {
 
 .price-text {
   color: #888;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 
 .price-card hr {
@@ -320,76 +323,109 @@ div p {
   color: #101c2b;
 }
 
-/* Subscription CSS */
+/* Subscription CSS Starts */
 
 .subscription {
-    margin-top: 100px;
-    padding: 80px;
-    background: linear-gradient(90deg, #2D5BFF, #0F2C7A);
+  margin-top: 100px;
+  padding: 80px;
+  background: linear-gradient(90deg, #2d5bff, #0f2c7a);
 }
-.subscribe .container{
-    max-width:1200px;
-    margin:auto;
+.subscribe .container {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .subscription .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .subscription h1 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 20px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .subscription p {
-    color: #fff;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    width: 800px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  width: 800px;
 }
 
 .subscription-form {
-    display: flex;
-    gap: 20px;
-    
+  display: flex;
+  gap: 20px;
 }
 
 .subscription-form input {
-    display :flex;
-    min-width: 280px;
-    padding: 18px 20px;
-    border: none;
-    border-radius: 8px;
-    background: rgba(204, 198, 198, 0.12);
-    color: #fff;
-    font-size: 16px;
-    outline: none;
+  display: flex;
+  min-width: 280px;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(204, 198, 198, 0.12);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
 }
 
 .subscription-form input::placeholder {
-    color:white;
-
+  color: white;
 }
 
 .subscription-form button {
-    padding: 18px 35px;
-    border: none;
-    border-radius: 8px;
-    background: blue;
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 8px;
+  background: blue;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .subscription-form button:hover {
-    background: rgb(45, 45, 204);
+  background: rgb(45, 45, 204);
 }
 
-/* Footer Section */
+/* Footer Section Starts */
 
+footer {
+  background: #101c2b;
+  padding: 30px 80px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-content p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: rgb(40, 40, 230);
+}
