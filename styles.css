@@ -178,7 +178,7 @@ nav {
 .category {
   font-family: "Inter", sans-serif;
   display: block;
-  color: blue;
+  color: #2d5bff;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -262,7 +262,7 @@ div p {
 }
 
 .featured .plan {
-  color: blue;
+  color: #2d5bff;
 }
 
 .price-card h3 {
@@ -304,7 +304,7 @@ div p {
   padding: 15px;
   border: 2px solid #2d5bff;
   border-radius: 10px;
-  color: blue;
+  color: #2d5bff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -313,7 +313,7 @@ div p {
   display: block;
   text-align: center;
   padding: 15px;
-  background: blue;
+  background: #2d5bff;
   color: white;
   text-decoration: none;
   border-radius: 10px;
@@ -387,7 +387,7 @@ div p {
 }
 
 .subscription-form button:hover {
-  background: rgb(45, 45, 204);
+  background: #2d5bff;
 }
 
 /* Footer Section Starts */
@@ -425,6 +425,6 @@ footer {
 }
 
 .footer-links a:hover {
-  color: rgb(40, 40, 230);
+  color: #2d5bff;
 }
 
